@@ -196,6 +196,11 @@ for i in range(1,5):
             summary.append(sentence)
         cnt = cnt+1
     summary = " ".join(summary)
+    #removing junk values from summary
+    summary = re.sub("[0-9]+/[0-9]+/[0-9]+", "", summary)
+    summary = re.sub("[0-9]+:[0-9]+ [A-Z]+", "", summary)
+    summary = re.sub("Page [0-9]+", "", summary)
+    summary = re.sub("pre[0-9]+_ch[0-9]+.qxd  ", "", summary)
 
     fileout.write(search_string)
     fileout.write("\n")
