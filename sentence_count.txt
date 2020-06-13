@@ -1,0 +1,39 @@
+Defining Software
+ Input count :48
+ Output count :24
+Software Application Domains
+ Input count :34
+ Output count :17
+SOFTWARE ENGINEERING
+ Input count :43
+ Output count :21
+THE SOFTWARE PROCESS
+ Input count :53
+ Output count :26
+A GENERIC PROCESS MODEL
+ Input count :15
+ Output count :7
+Agile Modeling (AM) 
+ Input count :28
+ Output count :14
+REQUIREMENTS ENGINEERING
+ Input count :64
+ Output count :32
+SOFTWARE QUALITY
+ Input count :20
+ Output count :10
+THE ISO 9000 QUALITY STANDARDS
+ Input count :11
+ Output count :5
+THE CMMI
+ Input count :26
+ Output count :13
+WHITE-BOX TESTING
+ Input count :3
+ Output count :1
+THE RMMM PLAN
+ Input count :12
+ Output count :6
+SOFTWARE MAINTENANCE
+ Input count :36
+ Output count :18
