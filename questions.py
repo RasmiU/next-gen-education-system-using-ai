@@ -20,7 +20,7 @@ n_rows=sheet.nrows
 
 filename='course_content.txt'
 f=open(filename,'r')
-outF = open('questions-copy.txt',"a")
+outF = open('questions.txt',"a")
 
 
 #questions=[]
