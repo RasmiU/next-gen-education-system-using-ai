@@ -20,7 +20,7 @@ n_rows=sheet.nrows
 
 filename='course_content.txt'
 f=open(filename,'r')
-outF = open('questions.txt',"a")
+outF = open('questions-copy.txt',"a")
 
 
 #questions=[]
@@ -62,6 +62,14 @@ def display(qtn,ans,choices):
     #qtn=str.replace(qtn,ans,blank)
     mc=[]
     disp_mc=[]
+
+    len_ch=len(choices)
+    temp_choices=['software','testing','code','agile']
+    if len_ch < 4:
+        len_diff = 4 - len_ch
+        for a in range(0, len_diff-1):
+            choices.append(temp_choices[a])
+
     mc=random.sample(choices, 3)
     mc.append(ans)
     disp_mc=random.sample(mc, 4)
@@ -84,10 +92,13 @@ def display(qtn,ans,choices):
 #read summary into text and tokenize text into sentences in collection
 #for i in range(1,n_rows+1):
 
-for i in range(1,5):
+for i in range(1,14):
     text=''
     str1=sheet.cell_value(i,0)
-    str2=sheet.cell_value(i,3)
+    try:
+        str2=sheet.cell_value(i+1,0)
+    except IndexError:
+       str2=sheet.cell_value(i,3) 
     outF.write(str1)
     outF.write(":\n")
 
@@ -143,6 +154,8 @@ for i in range(1,5):
                     phrase_list.remove(pl)
             #print(collec,"\t",phrase_list,"\n")
             tagged=nltk.pos_tag(phrase_list)
-            print(tagged,"\n")
-            find_key(collec,tagged,choices)
+            #print(tagged,"\n")
+            res = sum([i.strip(string.punctuation).isalpha() for i in collec.split()])
+            if res<= 40 :
+                find_key(collec,tagged,choices)
         
