@@ -77,14 +77,14 @@ def display(qtn,ans,choices):
     #questions.append(qtn)
     #answers.append(ans)
    
-    outF.write("Q:")
+    outF.write("\"Question\":\"")
     outF.write(qtn)
-    outF.write("\n")
-    outF.write("Options:")
+    outF.write("\",\n")
+    outF.write("\"Options\":\"")
     outF.write(str(disp_mc))
-    outF.write("\nAns:")
+    outF.write("\",\n\"Ans\":\"")
     outF.write(ans)
-    outF.write("\n\n")
+    outF.write("\",\n\n")
     
     #outF.close()
 
