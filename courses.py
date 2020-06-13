@@ -40,16 +40,16 @@ for i in range(1,5):
             outF.write("\"Heading\":\"")
             outF.write(search_string)
             outF.write("\"")
-            outF.write("\n")
+            outF.write(",")
             outF.write("\"Summary\":\"")
             outF.write(text_input)
-            outF.write("\"")
+            outF.write("\",")
         else: #if the two headings aren't in the same page
             text_input=text[next:] #extract all text coming after search_string
             outF.write("\"Heading\":\"")
             outF.write(search_string)
             outF.write("\"")
-            outF.write("\n")
+            outF.write(",")
             outF.write("\"Summary\":\"")
             outF.write(text_input)
             
@@ -65,7 +65,7 @@ for i in range(1,5):
                 else:
                     text_input=text
                 outF.write(text_input)
-                outF.write("\"")
+                outF.write("\",")
     outF.close()
     #print(text_input)
     f = open('input_text.txt',"w")
