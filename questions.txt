@@ -1,316 +1,539 @@
 Defining Software:
-Q:A textbook description of software might take the following form:   Software is: (1) instructions (computer programs) that when executed provide desired   features, function, and performance; (2) data structures that enable the programs to adequately manipulate information, and (3) descriptive information in both hard copy and   virtual forms that describes the operation and ________ of the programs.
-Options:['software', 'process', 'relationship', 'use']
-Ans:use
-
 Q:________ is developed or engineered; it is not manufactured in the classical sense.
-Options:['curve', 'wear', 'software', 'dependent']
+Options:['curve', 'example', 'software', 'software']
 Ans:software
 
-Q:In both   activities, high quality is achieved through good design, but the manufacturing phase for hardware can introduce quality problems that are nonexistent   pre75977_ch01.qxd  11/27/08  3:11 PM  Page 4   (or easily corrected) for ________.
-Options:['life', 'period', 'form', 'software']
+Q:In both   activities, high quality is achieved through good design, but the manufacturing phase for hardware can introduce quality problems that are nonexistent          (or easily corrected) for ________.
+Options:['software', 'pull', 'difference', 'function']
 Ans:software
 
 Q:Both activities are dependent on people,   but the ________ between people applied and work accomplished is   entirely different (see Chapter 24).
-Options:['relationship', 'operation', 'complexity', 'relationship']
+Options:['operation', 'example', 'relationship', 'time']
 Ans:relationship
 
-Q:Software doesnít ìwear out.î   Figure 1.1 depicts failure rate as a function of ________ for hardware.
-Options:['return', 'time', 'something', 'relationship']
+Q:Software doesn‚Äôt ‚Äúwear out.‚Äù   Figure 1.1 depicts failure rate as a function of ________ for hardware.
+Options:['return', 'curve', 'time', 'period']
 Ans:time
 
-Q:The relationship, often called the ìbathtub curve,î indicates that hardware exhibits   relatively high failure rates early in its life (these failures are often attributable to design or manufacturing defects); defects are corrected and the failure   rate drops to a steady-state level (hopefully, quite low) for some period of   ________.
-Options:['period', 'library', 'return', 'time']
-Ans:time
-
-Q:In theory, therefore, the failure rate curve for software   should ________ the form of the ìidealized curveî shown in Figure 1.2.
-Options:['take', 'collection', 'period', 'pull']
+Q:In theory, therefore, the failure rate curve for software   should ________ the form of the ‚Äúidealized curve‚Äù shown in Figure 1.2.
+Options:['menus', 'period', 'take', 'function']
 Ans:take
 
-Q:However, the ________ is clearósoftware doesnít wear out.
-Options:['process', 'life', 'complexity', 'implication']
+Q:However, the ________ is clear‚Äîsoftware doesn‚Äôt wear out.
+Options:['implication', 'library', 'function', 'pull']
 Ans:implication
 
-Q:________.qxd  11/27/08  3:11 PM  Page 5   This seeming contradiction can best be explained by considering the   actual curve in Figure 1.2.
-Options:['pre75977_ch01', 'wear', 'example', 'creation']
-Ans:pre75977_ch01
-
 Q:During its ________,2 software will undergo change.
-Options:['performance', 'life', 'process', 'design']
+Options:['software', 'spike', 'pull', 'life']
 Ans:life
 
-Q:As   changes are made, it is likely that errors will be introduced, causing the   failure rate curve to ________ as shown in the ìactual curveî (Figure 1.2).
-Options:['performance', 'complexity', 'spike', 'implication']
+Q:As   changes are made, it is likely that errors will be introduced, causing the   failure rate curve to ________ as shown in the ‚Äúactual curve‚Äù (Figure 1.2).
+Options:['menus', 'wear', 'collection', 'spike']
 Ans:spike
 
 Q:Before   the curve can ________ to the original steady-state failure rate, another change   is requested, causing the curve to spike again.
-Options:['spike', 'return', 'industry', 'something']
+Options:['return', 'curve', 'life', 'industry']
 Ans:return
 
-Q:Slowly, the minimum failure   rate level begins to riseóthe ________ is deteriorating due to change.
-Options:['example', 'period', 'time', 'software']
+Q:Slowly, the minimum failure   rate level begins to rise‚Äîthe ________ is deteriorating due to change.
+Options:['software', 'complexity', 'life', 'design']
 Ans:software
 
 Q:Another aspect of wear illustrates the difference between hardware and   ________.
-Options:['software', 'time', 'something', 'design']
+Options:['software', 'form', 'complexity', 'return']
 Ans:software
 
 Q:Every software failure indicates an   error in design or in the ________ through which design was translated into   machine executable code.
-Options:['process', 'creation', 'collection', 'curve']
+Options:['design', 'performance', 'something', 'process']
 Ans:process
 
 Q:Therefore, the software maintenance tasks that   accommodate requests for change involve considerably more ________   than hardware maintenance.
-Options:['complexity', 'library', 'form', 'return']
+Options:['complexity', 'dependent', 'relationship', 'design']
 Ans:complexity
 
 Q:Although the ________ is moving toward component-based construction, most   software continues to be custom built.
-Options:['complexity', 'industry', 'period', 'process']
+Options:['design', 'industry', 'difference', 'dependent']
 Ans:industry
 
 Q:As an engineering discipline evolves, a ________ of standard design components is created.
-Options:['collection', 'dependent', 'function', 'í']
+Options:['difference', 'collection', 'wear', 'spike']
 Ans:collection
 
 Q:In the software world, it is ________ that has only   begun to be achieved on a broad scale.
-Options:['curve', 'something', 'implication', 'function']
+Options:['something', 'life', 'time', 'implication']
 Ans:something
 
-Q:Modern reusable components encapsulate both data and the processing that is applied to the data, enabling the   software engineer to create new applications from reusable parts.3 For example, todayís interactive user interfaces are built with reusable components   that enable the creation of graphics windows, ________-down menus, and a wide   variety of interaction mechanisms.
-Options:['spike', 'pull', 'í', 'process']
-Ans:pull
-
 Q:The data structures and processing detail   required to build the ________ are contained within a library of reusable   components for interface construction.
-Options:['interface', 'design', 'example', 'spike']
+Options:['interface', 'difference', 'life', 'software']
 Ans:interface
 
 Software Application Domains:
-Q:Application softwareóstand-alone programs that ________ a specific business   need.
-Options:['solve', 'generation', 'volcanology', 'system']
+Q:Application software‚Äîstand-alone programs that ________ a specific business   need.
+Options:['system', 'management', 'solve', 'addition']
 Ans:solve
 
 Q:Applications in this area process business or technical data in a ________   that facilitates business operations or management/technical decision making.
-Options:['astronomy', 'development', 'pre75977_ch01', 'way']
+Options:['system', 'way', 'management', 'astronomy']
 Ans:way
 
 Q:In ________ to conventional data processing applications, application   software is used to control business functions in real time (e.g., point-of-sale   transaction processing, real-time manufacturing process control).
-Options:['engineering', 'database', 'addition', 'computer']
+Options:['computer', 'astronomy', 'entertainment', 'addition']
 Ans:addition
 
-Q:________/scientific softwareóhas been characterized by ìnumber   crunchingî algorithms.
-Options:['engineering', 'development', 'way', 'astronomy']
+Q:________/scientific software‚Äîhas been characterized by ‚Äúnumber   crunching‚Äù algorithms.
+Options:['generation', 'addition', 'engineering', 'database']
 Ans:engineering
 
 Q:Applications range from astronomy to ________,   from automotive stress analysis to space shuttle orbital dynamics, and   from molecular biology to automated manufacturing.
-Options:['volcanology', 'system', 'image', 'management']
+Options:['image', 'volcanology', 'computer', 'ease']
 Ans:volcanology
 
 Q:Computer-aided design, system simulation, and other interactive applications have begun to take on real-________ and   even system software characteristics.
-Options:['engineering', 'entertainment', 'time', 'image']
+Options:['time', 'system', 'distribution', 'image']
 Ans:time
 
-Q:Embedded softwareóresides within a product or ________ and is used to   implement and control features and functions for the end user and for the   system itself.
-Options:['addition', 'system', 'time', 'image']
+Q:Embedded software‚Äîresides within a product or ________ and is used to   implement and control features and functions for the end user and for the   system itself.
+Options:['system', 'astronomy', 'addition', 'management']
 Ans:system
 
 Q:Embedded software can perform limited and esoteric functions   (e.g., key pad control for a microwave oven) or provide significant function   and control capability (e.g., digital functions in an ________ such as fuel   control, dashboard displays, and braking systems).
-Options:['ease', 'pre75977_ch01', 'automobile', 'management']
+Options:['astronomy', 'system', 'automobile', 'database']
 Ans:automobile
 
 Q:________-line software can focus on a limited and   esoteric marketplace (e.g., inventory control products) or address mass   consumer markets (e.g., word processing, spreadsheets, computer graphics,   multimedia, entertainment, database management, and personal and   business financial applications).
-Options:['product', 'addition', 'distribution', 'legacy']
+Options:['entertainment', 'ease', 'management', 'product']
 Ans:product
 
 Q:In their simplest form, ________ can   be little more than a set of linked hypertext files that present information   using text and limited graphics.
-Options:['management', 'horizon', 'time', 'webapps']
+Options:['entertainment', 'development', 'webapps', 'product']
 Ans:webapps
 
 Q:Applications within this area include robotics, expert systems,   pattern recognition (________ and voice), artificial neural networks, theorem   proving, and game playing.
-Options:['way', 'database', 'development', 'image']
+Options:['image', 'management', 'generation', 'product']
 Ans:image
 
 Q:In some ________, new systems are being built, but in   many others, existing applications are being corrected, adapted, and enhanced.
-Options:['cases', 'astronomy', 'pre75977_ch01', 'database']
+Options:['system', 'astronomy', 'generation', 'cases']
 Ans:cases
 
 Q:Hopefully, the ________ to be left behind by this generation will   ease the burden of future software engineers.
-Options:['way', 'distribution', 'legacy', 'pre75977_ch01']
+Options:['legacy', 'legacy', 'image', 'volcanology']
 Ans:legacy
 
-Q:And yet, new challenges (Chapter 31)   have appeared on the ________:   Open-world computingóthe rapid growth of wireless networking may   soon lead to true pervasive, distributed computing.
-Options:['ease', 'management', 'horizon', 'distribution']
+Q:And yet, new challenges (Chapter 31)   have appeared on the ________:   Open-world computing‚Äîthe rapid growth of wireless networking may   soon lead to true pervasive, distributed computing.
+Options:['volcanology', 'system', 'horizon', 'addition']
 Ans:horizon
 
-Q:Open sourceóa growing trend that results in ________ of source code for   systems applications (e.g., operating systems, database, and development environments) so that many people can contribute to its development.
-Options:['way', 'computer', 'distribution', 'pre75977_ch01']
+Q:Open source‚Äîa growing trend that results in ________ of source code for   systems applications (e.g., operating systems, database, and development environments) so that many people can contribute to its development.
+Options:['distribution', 'database', 'image', 'ease']
 Ans:distribution
 
 SOFTWARE ENGINEERING:
 Q:It follows that a concerted effort should be made to ________ the   problem before a software solution is developed.
-Options:['longevity', 'understand', 'basis', 'likelihood']
+Options:['adaptation', 'agility', 'understand', 'basis']
 Ans:understand
 
-Q:ï The information technology requirements demanded by ________, businesses, and governments grow increasing complex with each passing year.
-Options:['foundation', 'individuals', 'problem', 'measurement']
+Q:‚Ä¢ The information technology requirements demanded by ________, businesses, and governments grow increasing complex with each passing year.
+Options:['individuals', 'system', 'baseline', 'understand']
 Ans:individuals
 
 Q:Large teams of ________ now create computer programs that were once built   by a single individual.
-Options:['people', 'baseline', 'definition', 'context']
+Options:['state', 'basis', 'people', 'importance']
 Ans:people
 
 Q:If the software fails, ________ and major enterprises can experience   anything from minor inconvenience to catastrophic failures.
-Options:['longevity', 'understand', 'people', 'software']
+Options:['basis', 'change', 'people', 'baseline']
 Ans:people
 
 Q:It follows that   ________ should exhibit high quality.
-Options:['í', 'likelihood', 'software', 'context']
+Options:['system', 'understand', 'software', 'importance']
 Ans:software
 
-Q:ï As the perceived value of a specific application grows, the likelihood is that   its user base and ________ will also grow.
-Options:['adaptation', 'system', 'longevity', 'longevity']
+Q:‚Ä¢ As the perceived value of a specific application grows, the likelihood is that   its user base and ________ will also grow.
+Options:['process', 'state', 'agility', 'longevity']
 Ans:longevity
 
-Q:As its user base and ________-in-use   pre75977_ch01.qxd  11/27/08  3:11 PM  Page 12   increase, demands for adaptation and enhancement will also grow.
-Options:['time', 'likelihood', 'process', 'context']
+Q:As its user base and ________-in-use          increase, demands for adaptation and enhancement will also grow.
+Options:['support', 'process', 'time', 'basis']
 Ans:time
 
-Q:You will be tempted to add to this definition.9 It says little about the technical aspects of software quality; it does not directly address the need for customer satisfaction or timely product delivery; it omits mention of the importance of measurement   and metrics; it does not ________ the importance of an effective process.
-Options:['likelihood', 'adaptation', 'state', 'state']
-Ans:state
-
-Q:And yet, Bauerís   definition provides us with a ________.
-Options:['baseline', 'system', 'adaptation', 'process']
+Q:And yet, Bauer‚Äôs   definition provides us with a ________.
+Options:['process', 'problem', 'time', 'baseline']
 Ans:baseline
 
-Q:We need discipline, but we also need   adaptability and ________.
-Options:['change', 'support', 'software', 'agility']
-Ans:agility
-
 Q:Referring to Figure 1.3, any engineering approach (including software engineering) must rest on an organizational commitment to ________.
-Options:['measurement', 'enhancement', 'process', 'quality']
+Options:['measurement', 'quality', 'basis', 'enhancement']
 Ans:quality
 
 Q:The ________ that supports software engineering is a quality focus.
-Options:['enhancement', 'definition', 'support', 'bedrock']
+Options:['bedrock', 'state', 'adaptation', 'change']
 Ans:bedrock
 
 Q:The ________ for software engineering is the process layer.
-Options:['foundation', 'adaptation', 'quality', 'í']
+Options:['state', 'framework', 'support', 'foundation']
 Ans:foundation
 
 Q:The software process forms the ________ for management control of software projects   and establishes the context in which technical methods are applied, work products   (models, documents, data, reports, forms, etc.)
-Options:['state', 'definition', 'system', 'basis']
+Options:['basis', 'understand', 'time', 'agility']
 Ans:basis
 
-Q:are produced, milestones are established, ________ is ensured, and change is properly managed.
-Options:['quality', 'understand', 'definition', 'software']
-Ans:quality
-
 Q:Methods encompass a broad array of tasks that include communication,   requirements analysis, design modeling, program construction, testing, and ________.
-Options:['baseline', 'time', 'support', 'foundation']
+Options:['support', 'adaptation', 'support', 'problem']
 Ans:support
 
-Q:Software engineering tools provide automated or semiautomated support for the   ________ and the methods.
-Options:['likelihood', 'understand', 'process', 'software']
-Ans:process
-
 Q:When tools are integrated so that information created by   one tool can be used by another, a ________ for the support of software development,   called computer-aided software engineering, is established.
-Options:['likelihood', 'understand', 'measurement', 'system']
+Options:['definition', 'foundation', 'framework', 'system']
 Ans:system
 
 THE SOFTWARE PROCESS:
 Q:An activity strives to achieve a broad objective   (e.g., communication with stakeholders) and is applied regardless of the application   domain, ________ of the project, complexity of the effort, or degree of rigor with which   software engineering is to be applied.
-Options:['software', 'size', 'team', 'satisfy']
+Options:['number', 'size', 'process', 'code']
 Ans:size
 
 Q:An ________ (e.g., architectural design) encompasses a set of tasks that produce a major work product (e.g., an architectural design   model).
-Options:['process', 'application', 'action', 'quality']
+Options:['action', 'create', 'perform', 'journey']
 Ans:action
 
-Q:A task focuses on a small, but well-defined objective (e.g., conducting a unit   test) that ________ a tangible outcome.
-Options:['produces', 'process', 'size', 'work']
-Ans:produces
-
 Q:In the context of software engineering, a ________ is not a rigid prescription for how   to build computer software.
-Options:['process', 'carpenter', 'team', 'problem']
+Options:['size', 'complexity', 'process', 'sketch']
 Ans:process
 
 Q:Rather, it is an adaptable approach that enables the people doing the ________ (the software team) to pick and choose the appropriate set of   work actions and tasks.
-Options:['thing', 'application', 'work', 'journey']
+Options:['work', 'problem', 'foundation', 'build']
 Ans:work
 
 Q:The intent is always to deliver software in a timely manner   and with sufficient quality to satisfy those who have sponsored its creation and those   who will ________ it.
-Options:['book', 'process', 'size', 'use']
+Options:['therefore', 'level', 'use', 'evaluation']
 Ans:use
 
-Q:pre75977_ch01.qxd  11/27/08  3:11 PM  Page 14   A process framework establishes the foundation for a complete software engineering process by identifying a small number of framework activities that are applicable to all software projects, regardless of their ________ or complexity.
-Options:['sketch', 'size', 'carpenter', 'identification']
+Q:A process framework establishes the foundation for a complete software engineering process by identifying a small number of framework activities that are applicable to all software projects, regardless of their ________ or complexity.
+Options:['quality', 'size', 'therefore', 'satisfy']
 Ans:size
 
-Q:A   software project is a complicated journey, and the planning activity creates a   ìmapî that helps guide the ________ as it makes the journey.
-Options:['pre75977_ch01', 'action', 'customer', 'team']
+Q:A   software project is a complicated journey, and the planning activity creates a   ‚Äúmap‚Äù that helps guide the ________ as it makes the journey.
+Options:['create', 'therefore', 'team', 'adaptability']
 Ans:team
 
-Q:The mapócalled a   software project planódefines the software engineering work by ________   the technical tasks to be conducted, the risks that are likely, the resources   that will be required, the work products to be produced, and a work   schedule.
-Options:['software', 'describing', 'therefore', 'risk']
+Q:The map‚Äîcalled a   software project plan‚Äîdefines the software engineering work by ________   the technical tasks to be conducted, the risks that are likely, the resources   that will be required, the work products to be produced, and a work   schedule.
+Options:['describing', 'team', 'effort', 'action']
 Ans:describing
 
-Q:Whether youíre a landscaper, a bridge builder, an aeronautical   engineer, a carpenter, or an architect, you ________ with models every day.
-Options:['help', 'work', 'perform', 'journey']
+Q:Whether you‚Äôre a landscaper, a bridge builder, an aeronautical   engineer, a carpenter, or an architect, you ________ with models every day.
+Options:['risk', 'work', 'creation', 'schedule']
 Ans:work
 
-Q:You   create a ìsketchî of the ________ so that youíll understand the big pictureówhat   it will look like architecturally, how the constituent parts fit together, and   many other characteristics.
-Options:['size', 'thing', 'build', 'construction']
+Q:You   create a ‚Äúsketch‚Äù of the ________ so that you‚Äôll understand the big picture‚Äîwhat   it will look like architecturally, how the constituent parts fit together, and   many other characteristics.
+Options:['code', 'thing', 'risk', 'software']
 Ans:thing
 
-Q:If required, you refine the ________ into greater and   greater detail in an effort to better understand the problem and how youíre   going to solve it.
-Options:['sketch', 'pre75977_ch01', 'code', 'project']
+Q:If required, you refine the ________ into greater and   greater detail in an effort to better understand the problem and how you‚Äôre   going to solve it.
+Options:['sketch', 'problem', 'perform', 'risk']
 Ans:sketch
 
 Q:This activity combines ________ generation (either manual or   automated) and the testing that is required to uncover errors in the code.
-Options:['code', 'foundation', 'help', 'risk']
+Options:['code', 'effort', 'carpenter', 'approach']
 Ans:code
 
 Q:The ________ (as a complete entity or as a partially completed increment) is delivered to the customer who evaluates the delivered   product and provides feedback based on the evaluation.
-Options:['deployment', 'build', 'quality', 'software']
+Options:['code', 'effort', 'software', 'book']
 Ans:software
 
 Q:That is, communication, planning, modeling, construction,   and deployment are applied repeatedly through a ________ of project iterations.
-Options:['number', 'problem', 'thing', 'help']
+Options:['help', 'action', 'number', 'number']
 Ans:number
 
 Q:In general, umbrella activities are applied throughout a software project and help a software team manage and control progress, quality,   change, and ________.
-Options:['help', 'therefore', 'risk', 'quality']
+Options:['level', 'approach', 'risk', 'software']
 Ans:risk
 
-Q:Typical umbrella activities include:   Software project tracking and controlóallows the software team to   assess progress against the project plan and take any necessary action to   maintain the ________.
-Options:['identification', 'system', 'schedule', 'process']
+Q:Typical umbrella activities include:   Software project tracking and control‚Äîallows the software team to   assess progress against the project plan and take any necessary action to   maintain the ________.
+Options:['number', 'construction', 'level', 'schedule']
 Ans:schedule
 
-Q:Software quality assuranceódefines and ________ the activities required   to ensure software quality.
-Options:['conducts', 'approach', 'problem', 'book']
+Q:Software quality assurance‚Äîdefines and ________ the activities required   to ensure software quality.
+Options:['identification', 'creation', 'code', 'conducts']
 Ans:conducts
 
-Q:Among the differences are   ï Overall flow of activities, actions, and tasks and the interdependencies   among them   ï Degree to which actions and tasks are defined within each framework activity   ï Degree to which work products are identified and required   pre75977_ch01.qxd  11/27/08  3:11 PM  Page 16   ï Manner in which quality assurance activities are applied   ï Manner in which project tracking and control activities are applied   ï Overall degree of detail and rigor with which the ________ is described   ï Degree to which the customer and other stakeholders are involved with the   project   ï Level of autonomy given to the software team   ï Degree to which team organization and roles are prescribed   In Part 1 of this book, Iíll examine software process in considerable detail.
-Options:['process', 'system', 'foundation', 'code']
-Ans:process
-
 Q:Prescriptive   process models (Chapter 2) stress detailed definition, ________, and application   of process activities and tasks.
-Options:['identification', 'quality', 'carpenter', 'system']
+Options:['identification', 'increase', 'application', 'size']
 Ans:identification
 
 Q:Their intent is to improve ________ quality, make projects more manageable, make delivery dates and costs more predictable, and guide   teams of software engineers as they perform the work required to build a system.
-Options:['size', 'system', 'creation', 'thing']
+Options:['satisfy', 'system', 'quality', 'therefore']
 Ans:system
 
 Q:If   prescriptive models are applied dogmatically and without adaptation, they can ________ the level of bureaucracy associated with building computer-based systems   and inadvertently create difficulty for all stakeholders.
-Options:['e', 'construction', 'increase', 'application']
+Options:['foundation', 'carpenter', 'problem', 'increase']
 Ans:increase
 
-Q:Agile process models (Chapter 3) emphasize project ìagilityî and follow a set of principles that lead to a more informal (but, proponents argue, no less effective) ________   to software process.
-Options:['approach', 'project', 'application', 'level']
+Q:Agile process models (Chapter 3) emphasize project ‚Äúagility‚Äù and follow a set of principles that lead to a more informal (but, proponents argue, no less effective) ________   to software process.
+Options:['software', 'creation', 'approach', 'satisfy']
 Ans:approach
 
-Q:These process models are generally characterized as ìagileî because they emphasize maneuverability and ________.
-Options:['thing', 'therefore', 'identification', 'adaptability']
+Q:These process models are generally characterized as ‚Äúagile‚Äù because they emphasize maneuverability and ________.
+Options:['software', 'adaptability', 'therefore', 'approach']
 Ans:adaptability
 
+A GENERIC PROCESS MODEL:
+Q:As I discussed in Chapter 1, a generic process framework for software engineering defines five framework activities‚Äîcommunication, planning, modeling,   construction, and ________.
+Options:['construction', 'collection', 'deployment', 'addition']
+Ans:deployment
+
+Q:In addition, a set of umbrella activities‚Äîproject   tracking and control, risk management, quality assurance, configuration management, technical reviews, and others‚Äîare applied throughout the ________.
+Options:['time', 'respect', 'process', 'construction']
+Ans:process
+
+Q:This aspect‚Äîcalled process flow‚Äîdescribes how the framework activities and the actions and tasks that occur within each framework   activity are organized with respect to sequence and ________ and is illustrated in   Figure 2.2.
+Options:['modeling', 'time', 'planning', 'addition']
+Ans:time
+
+Q:A parallel process flow (Figure 2.2d) executes one or   more activities in parallel with other activities (e.g., modeling for one aspect of the   software might be executed in parallel with ________ of another aspect of the   software).
+Options:['construction', 'construction', 'planning', 'process']
+Ans:construction
+
+REQUIREMENTS ENGINEERING:
+Q:Designing and building computer software is ________, creative, and just plain   fun.
+Options:['problem', 'challenging', 'work', 'market']
+Ans:challenging
+
+Q:In ________, building software is so compelling that many software developers want   to jump right in before they have a clear understanding of what is needed.
+Options:['cost', 'fact', 'desire', 'combination']
+Ans:fact
+
+Q:From a software process perspective,   requirements engineering is a major software engineering action that ________ during   the communication activity and continues into the modeling activity.
+Options:['idea', 'design', 'begins', 'volatility']
+Ans:begins
+
+Q:Requirements engineering builds a bridge to ________ and construction.
+Options:['design', 'time', 'computer', 'problem']
+Ans:design
+
+Q:Others might suggest that it begins with a broader   system definition, where ________ is but one component of the larger system   domain.
+Options:['service', 'collection', 'software', 'elicitation']
+Ans:software
+
+Q:Requirements engineering provides the appropriate mechanism for understanding what the customer wants, analyzing need, assessing feasibility, negotiating a reasonable solution, specifying the solution unambiguously, validating the ________,   and managing the requirements as they are transformed into an operational system   [Tha97].
+Options:['effectiveness', 'desire', 'construction', 'specification']
+Ans:specification
+
+Q:It encompasses seven distinct tasks: inception, elicitation, elaboration,   negotiation, specification, ________, and management.
+Options:['information', 'validation', 'effectiveness', 'combination']
+Ans:validation
+
+Q:Is there a single event that   becomes the catalyst for a new computer-based system or product, or does the need   evolve over ________?
+Options:['effectiveness', 'time', 'volatility', 'service']
+Ans:time
+
+Q:In some cases,   a casual conversation is all that is needed to ________ a major software engineering effort.
+Options:['solution', 'volatility', 'precipitate', 'effectiveness']
+Ans:precipitate
+
+Q:But in general, most projects begin when a business need is identified   or a potential new market or ________ is discovered.
+Options:['work', 'collection', 'service', 'information']
+Ans:service
+
+Q:‚Ä¢ Problems of ________.
+Options:['project', 'scope', 'problem', 'specification']
+Ans:scope
+
+Q:The boundary of the ________ is ill-defined or the   customers/users specify unnecessary technical detail that may confuse,   rather than clarify, overall system objectives.
+Options:['consequence', 'system', 'depth', 'try']
+Ans:system
+
+Q:‚Ä¢ Problems of ________.
+Options:['collection', 'depth', 'fact', 'volatility']
+Ans:volatility
+
+Q:To help overcome these ________, you must approach requirements gathering in an   organized manner.
+Options:['problems', 'design', 'bridge', 'creation']
+Ans:problems
+
+Q:The information obtained from the customer during ________ and   elicitation is expanded and refined during elaboration.
+Options:['problem', 'market', 'inception', 'collaboration']
+Ans:inception
+
+Q:Elaboration is driven by the creation and refinement of user scenarios that describe how the end user (and other actors) will interact with the ________.
+Options:['business', 'scope', 'construction', 'system']
+Ans:system
+
+Q:The attributes of each analysis class are defined, and the ________ that are required by each class are identified.
+Options:['life', 'clarify', 'services4', 'nature']
+Ans:services4
+
+Q:Using an iterative approach that prioritizes requirements, assesses   their cost and risk, and addresses internal conflicts, requirements are eliminated,   combined, and/or modified so that each party achieves some measure of ________.
+Options:['problem', 'specification', 'risk', 'satisfaction']
+Ans:satisfaction
+
+Q:A ________ can be a written document, a set of graphical models, a formal mathematical model, a collection   of usage scenarios, a prototype, or any combination of these.
+Options:['specification', 'system', 'desire', 'effectiveness']
+Ans:specification
+
+Q:The work products produced as a consequence of requirements engineering are assessed for ________ during a validation step.
+Options:['market', 'quality', 'desire', 'cost']
+Ans:quality
+
+Q:Requirements for computer-based ________s   change, and the desire to change requirements persists throughout the life of the   system.
+Options:['collection', 'system', 'try', 'satisfaction']
+Ans:system
+
+SOFTWARE QUALITY:
+Q:In the most general sense,   software quality can be defined1 as: An effective software process applied in a manner   that creates a ________ful product that provides measurable value for those who produce it   and those who use it.
+Options:['use', 'developer', 'produce', 'manner']
+Ans:use
+
+Q:The management aspects   of process create the ________ and balances that help avoid project chaos‚Äîa   key contributor to poor quality.
+Options:['way', 'checks', 'business', 'problem']
+Ans:checks
+
+Q:Software engineering practices allow the   developer to analyze the ________ and design a solid solution‚Äîboth critical   to building high-quality software.
+Options:['producer', 'produce', 'information', 'problem']
+Ans:problem
+
+Q:In addition, it satisfies a set of implicit   requirements (e.g., ease of ________) that are expected of all high-quality software.
+Options:['use', 'problem', 'user', 'addition']
+Ans:use
+
+Q:By adding value for both the producer and ________ of a software product, highquality software provides benefits for the software organization and the enduser community.
+Options:['business', 'user', 'producer', 'produce']
+Ans:user
+
+Q:This enables software engineers to spend more   time creating new applications and less on ________.
+Options:['rework', 'manner', 'design', 'way']
+Ans:rework
+
+Q:The user community   gains added value because the application provides a useful capability in   a ________ that expedites some business process.
+Options:['way', 'design', 'manner', 'information']
+Ans:way
+
+Q:The end result is (1) greater   software product revenue, (2) better profitability when an application   supports a business process, and/or (3) improved availability of ________   that is crucial for the business.
+Options:['problem', 'design', 'information', 'addition']
+Ans:information
+
+THE ISO 9000 QUALITY STANDARDS:
+Q:These systems cover a wide variety of activities encompassing a product‚Äôs entire life   cycle including planning, controlling, measuring, testing and reporting, and improving quality levels throughout the ________ and manufacturing process.
+Options:['traceability', 'development', 'desire', 'inspection']
+Ans:development
+
+Q:Upon successful registration,   a ________ is issued a certificate from a registration body represented by the auditors.
+Options:['development', 'company', 'company', 'desire']
+Ans:company
+
+Q:Semiannual surveillance audits ensure continued compliance to the ________.
+Options:['information', 'development', 'see', 'standard']
+Ans:standard
+
+Q:If you desire   further ________ on ISO 9001:2000, see [Ant06], [Mut03], or [Dob04].
+Options:['certificate', 'information', 'see', 'document']
+Ans:information
+
+THE CMMI:
+Q:________, it has evolved into   the Capability Maturity Model Integration (CMMI) [CMM07], a comprehensive process   meta-model that is predicated on a set of system and software engineering capabilities that should be present as organizations reach different levels of process capability and maturity.
+Options:['process', 'today', 'today', 'access']
+Ans:today
+
+Q:The CMMI represents a process meta-________ in two different ways: (1) as a   ‚Äúcontinuous‚Äù model and (2) as a ‚Äústaged‚Äù model.
+Options:['e', 'adherence', 'effort', 'model']
+Ans:model
+
+Q:The continuous CMMI metamodel describes a ________ in two dimsensions as illustrated in Figure 30.2.
+Options:['correspond', 'process', 'level', 'process']
+Ans:process
+
+Q:In ________, the process area is controlled and improved using   measurement and quantitative assessment.
+Options:['system', 'addition', 'hence', 'maturity']
+Ans:addition
+
+Q:‚ÄúQuantitative objectives for ________ and process performance are established and used as criteria in managing   the process‚Äù [CMM07].
+Options:['consideration', 'scope', 'quality', 'hence']
+Ans:quality
+
+Q:In   addition, the process area is adapted and optimized using quantitative   (statistical) means to meet changing customer needs and to continually   improve the efficacy of the process area under ________.
+Options:['quality', 'effort', 'model', 'consideration']
+Ans:consideration
+
+Q:Hence, to achieve a particular   capability ________, the generic goal for that level and the generic practices that correspond to that goal must be achieved.
+Options:['level', 'maturity', 'today', 'access']
+Ans:level
+
+Q:The   ________ between maturity levels and process areas is shown in Figure 30.3.
+Options:['relationship', 'level', 'scope', 'addition']
+Ans:relationship
+
+WHITE-BOX TESTING:
+Q:WHITE-BOX TESTING   White-box testing, sometimes called glass-box testing, is a test-case design philosophy that uses the control structure described as ________ of component-level design to   derive test cases.
+Options:['software', 'part', 'component', 'part']
+Ans:part
+
+THE RMMM PLAN:
+Q:THE RMMM PLAN   A risk management strategy can be included in the software project plan, or the risk   management steps can be organized into a separate risk mitigation, ________, and   management plan (RMMM).
+Options:['monitoring', 'monitoring', 'creation', 'part']
+Ans:monitoring
+
+Q:The RMMM plan documents all work performed as ________   of risk analysis and is used by the project manager as part of the overall project   plan.
+Options:['creation', 'monitoring', 'part', 'part']
+Ans:part
+
+Q:In most   cases, the RIS is maintained using a database system so that ________ and information entry, priority ordering, searches, and other analysis may be accomplished easily.
+Options:['monitoring', 'creation', 'creation', 'part']
+Ans:creation
+
+Q:Another job of   ________ monitoring is to attempt to allocate origin [what risk(s) caused which problems   throughout the project].
+Options:['risk', 'creation', 'part', 'monitoring']
+Ans:risk
+
+SOFTWARE MAINTENANCE:
+Q:They‚Äôll need a few enhancements   to make it work in their ________.
+Options:['design', 'challenge', 'mobility', 'world']
+Ans:world
+
+Q:The ________ of software maintenance has begun.
+Options:['challenge', 'machine', 'time', 'queue']
+Ans:challenge
+
+Q:Before long, the queue has grown   long and the ________ it implies threatens to overwhelm the available resources.
+Options:['work', 'result', 'importance', 'machine']
+Ans:work
+
+Q:As time   passes, your organization finds that it‚Äôs ________ more money and time maintaining   existing programs than it is engineering new applications.
+Options:['spending', 'queue', 'result', 'challenge']
+Ans:spending
+
+Q:Even when   these programs were created using the best design and coding techniques known at the   ________ [and most were not], they were created when program size and storage space were   principle concerns.
+Options:['time', 'problem', 'ease', 'need']
+Ans:time
+
+Q:They were then migrated to new platforms, adjusted for changes in   ________ and operating system technology and enhanced to meet new user needs‚Äîall   without enough regard to overall architecture.
+Options:['problem', 'book', 'machine', 'analysis']
+Ans:machine
+
+Q:The ________ is the poorly designed structures, poor coding, poor logic, and poor documentation of the software systems we are   now called on to keep running .
+Options:['need', 'challenge', 'analysis', 'result']
+Ans:result
+
+Q:Another reason for the software maintenance problem is the ________ of software   people.
+Options:['today', 'design', 'importance', 'mobility']
+Ans:mobility
+
+Q:Worse, other generations of software people have modified the   ________ and moved on.
+Options:['challenge', 'work', 'time', 'system']
+Ans:system
+
+Q:And ________, there may be no one left who has any direct   knowledge of the legacy system.
+Options:['need', 'today', 'work', 'result']
+Ans:today
+
+Q:Throughout this book, I‚Äôve emphasized the importance of understanding the   ________ (analysis) and developing a well-structured solution (design).
+Options:['problem', 'design', 'system', 'overwhelm']
+Ans:problem
+
+Q:In essence, ________ is a qualitative indication1 of the ease with   which existing software can be corrected, adapted, or enhanced.
+Options:['analysis', 'world', 'maintainability', 'design']
+Ans:maintainability
+
+Q:It has been constructed using well-defined coding standards and conventions, leading to source code that is ________-documenting and understandable.
+Options:['challenge', 'need', 'self', 'world']
+Ans:self
+
+Q:Therefore, the design and implementation of the software must ‚Äúassist‚Äù the ________ who is making the change.
+Options:['person', 'implementation', 'mobility', 'ease']
+Ans:person
