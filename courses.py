@@ -19,7 +19,7 @@ sheet = wb.sheet_by_index(0)
 n_rows=sheet.nrows
 doc = fitz.open('copy.pdf') #copy.pdf is the textbook
 #for i in range(1,n_rows+1):
-for i in range(1,5):
+for i in range(1,14):
     page_no=int(sheet.cell_value(i,2)) #page to be read
     page = doc.loadPage(page_no) 
     text = page.getText('text')
