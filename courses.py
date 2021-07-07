@@ -37,14 +37,22 @@ for i in range(1,14):
             start_next=text.find(next_string)
             text_input=text[next:start_next] #extracting paragraph between search_string and next_string
             #writing the paragraph to a file
+            outF.write("\"Heading\":\"")
             outF.write(search_string)
-            outF.write("\n")
+            outF.write("\"")
+            outF.write(",")
+            outF.write("\"Summary\":\"")
             outF.write(text_input)
+            outF.write("\",")
         else: #if the two headings aren't in the same page
             text_input=text[next:] #extract all text coming after search_string
+            outF.write("\"Heading\":\"")
             outF.write(search_string)
-            outF.write("\n")
+            outF.write("\"")
+            outF.write(",")
+            outF.write("\"Summary\":\"")
             outF.write(text_input)
+            
             flag=0 #flag=0 => next_string not found yet
             while(flag==0): #will keep on iterating until next_string is found in some page
                 page_no=page_no+1
@@ -57,6 +65,7 @@ for i in range(1,14):
                 else:
                     text_input=text
                 outF.write(text_input)
+                outF.write("\",")
     outF.close()
     #print(text_input)
     f = open('input_text.txt',"w")
